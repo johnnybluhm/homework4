@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 
 
-  const result = $.ajax({url:url, state:state, dataType:"jsonp"}).then(function(data) {
+  $.ajax({url:url, state:state, dataType:"jsonp"}).then(function(data) {
                 
                 var state=this.state
                                   
